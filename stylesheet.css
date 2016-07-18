@@ -1,9 +1,26 @@
 body {
-    background-color: black;
+    background-color: white;
 }
 
 .button {
-  background-color: = red;
-  
+  background-color: red;
+}
 
+.bbutton {
+  background-color: purple;
+}
+.bbutton hover {
+  background-color: white;
+}
+
+.tie {
+  background-color: orange
+}
+
+.loss {
+  background-color: red
+}
+
+.win {
+  background-color: green
 }

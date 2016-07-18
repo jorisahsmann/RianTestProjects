@@ -6,7 +6,19 @@
 		<link rel='stylesheet' type='text/css' href='stylesheet.css'/>
 	</head>
 	<body>
-    <button class="button" id="button" onclick="TestFunction()"> clickme </button>
-
+    <div>
+      <h2> Pick your demise </h2>
+      <select id="playersInput">
+        <option value="rock">Rock</option>
+        <option value="paper">Paper</option>
+        <option value="scissors">Scissors</option>
+      </select>
+    </div>
+    <div>
+      <button class="button" id="button" onclick="rps(document.getElementById('playersInput').value)"> clickme </button>
+    </div>
+    <div>
+      <p id="computerChoice"> </p>
+      <p id="result"> </p>
 	</body>
 </html>
